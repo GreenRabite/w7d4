@@ -1,0 +1,57 @@
+$black: #161616;
+$grey: #747474;
+$light-grey: #999999;
+$red: #d43316;
+$dark-red: #CC0000;
+$yellow: #FFDE00;
+$dark-yellow: #B3A125;
+$blue: #3B4CCA;
+
+body {
+  background-image: url("pokemon_map.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pokemon-index-container {
+  display: flex;
+  margin-bottom: 120px;
+  margin-top: 80px;
+}
+
+.pokemon-list {
+  background-color: rgba(59, 76, 202, 0.6);
+  width: 270px;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.pokemon-list-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: $light-grey;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px black;
+  border: 1px $blue solid;
+}
+
+.pokemon-list-item:hover {
+  background-color: $grey;
+  box-shadow: 0 0 0.8;
+}
+
+.pokemon-list-item img {
+  height: 40px;
+  width: 40px;
+}
+
+.pokemon-list-item p {
+  margin-left: 15px;
+  color: $black;
+  font-size: 18px;
+  line-height: 1;
+}

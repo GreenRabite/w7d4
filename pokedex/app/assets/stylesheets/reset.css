@@ -1,0 +1,11 @@
+html, body, div, ul, li, ol, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#root {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
